@@ -18,4 +18,3 @@ def write_image(image_list, filename):
         image = np.array(image_list, dtype=np.uint8)
         im = Image.fromarray(image)
         im.save(filename)
-
